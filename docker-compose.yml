@@ -1,6 +1,7 @@
 version: '3'
 services:
   strapi:
+    image: strapi/strapi
     build:
       context: "."
       dockerfile: "Dockerfile"
